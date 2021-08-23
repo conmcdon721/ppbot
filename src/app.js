@@ -1,5 +1,5 @@
 import tmi from 'tmi.js'
-import { BOT_USERNAME, OAUTH_TOKEN, CHANNEL_NAME , messages } from './constants.js';
+import { BOT_USERNAME, OAUTH_TOKEN, CHANNEL_NAME, guestStreamer, messages } from './constants.js';
 
 const options = {
 	options: { debug: true, messagesLogLevel: "info" },
@@ -21,6 +21,6 @@ client.connect().catch(console.error);
 client.on('message', (channel, userstate, message, self) => {
 	if(self) return;
 	if(message.toLowerCase() === '!actualppsize') {
-		client.say(channel, `@${userstate.username}, ${messages[Math.floor(Math.random() * 3)]}`);
+		client.say(channel, `@${userstate.username}, ${messages[Math.floor(Math.random() * 20)]}`);
 	}
 });
