@@ -21,7 +21,7 @@ const messages = [
     `Evan Wahr has a small dong! He's rocking two inches, on a good day!!`,
     `Evan Wahr is HUNG! I'm talking big MASSIVE cock!`,
     `Evan Wahr hasn't had genitals since the accident! Quit asking!`,
-    `${guestStreamer[Math.floor(Math.random() * 7)]}? Yeah, I heard that guy was more of a show-er.`,
+    `${guestStreamer[Math.floor(Math.random() * guestStreamer.length)]}? Yeah, I heard that guy was more of a show-er.`,
     `Evan Wahr has a dong that's just as big as Winston's.`,
     `Evan Wahr's cock grew three sizes bigger after he brutally killed Carl in his SOMA playthrough.`,
     `Evan Wahr's big ol' schlong was destroyed in the war. But we can rebuild him; we have the technology to make it bigger, better.`,
@@ -38,6 +38,7 @@ const messages = [
     `if you have to ask, then Evan Wahr's wang is too big for you.`,
     `the size of Evan Wahr's one-eyed trouser snake cannot be determined because he is currently in Paris.`,
     `Joe Mama.`
+    `a lot bigger than ${guestStreamer[Math.floor(Math.random() * guestStreamer.length)]}, that's for sure!`
 ];
 
 export { BOT_USERNAME, OAUTH_TOKEN, CHANNEL_NAME, guestStreamer, messages };

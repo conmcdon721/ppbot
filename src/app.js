@@ -21,6 +21,6 @@ client.connect().catch(console.error);
 client.on('message', (channel, userstate, message, self) => {
 	if(self) return;
 	if(message.toLowerCase() === '!actualppsize') {
-		client.say(channel, `@${userstate.username}, ${messages[Math.floor(Math.random() * 20)]}`);
+		client.say(channel, `@${userstate.username}, ${messages[Math.floor(Math.random() * messages.length)]}`);
 	}
 });
