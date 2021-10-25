@@ -37,7 +37,7 @@ const messages = [
     `Evan Wahr's shaft is so immense that it made Gordon Ramsay go, "Right. Okay. Right, fuck me. Finally, some good fucking food."`,
     `if you have to ask, then Evan Wahr's wang is too big for you.`,
     `the size of Evan Wahr's one-eyed trouser snake cannot be determined because he is currently in Paris.`,
-    `Joe Mama.`
+    `Joe Mama.`,
     `a lot bigger than ${guestStreamer[Math.floor(Math.random() * guestStreamer.length)]}, that's for sure!`
 ];
 
