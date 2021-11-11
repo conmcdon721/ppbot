@@ -1,7 +1,7 @@
 {
   "name": "ppsizebot",
-  "version": "0.0.0",
-  "description": "what is the true size streamer",
+  "version": "1.1.0",
+  "description": "How big is this streamer's penis?",
   "main": "src",
   "scripts": {
     "start": "node .",
@@ -9,10 +9,8 @@
   },
   "author": "Connor McDonald",
   "license": "ISC",
-  "type": "module",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "esm": "^3.2.25",
     "tmi.js": "^1.8.5"
   }
 }
