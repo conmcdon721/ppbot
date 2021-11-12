@@ -1,4 +1,4 @@
-# actualStreamerSize / actualPpSize / ppBot
+# actualStreamerSize / actualppsize / ppBot
 
 My friend Evan ([Evan's Twitch here](https://twitch.tv/evanwahr)) tricked me into typing "!actualppsize" in his chat, so I made a bot that tells viewers his actual pp size.
 
