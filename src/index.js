@@ -2,7 +2,7 @@ const tmi = require("tmi.js");
 const dotenv = require("dotenv");
 dotenv.config();
 
-const messages = require("./responses");
+const responses = require("./responses");
 
 const client = new tmi.Client({
   identity: {
@@ -14,13 +14,15 @@ const client = new tmi.Client({
 
 client.connect();
 
-client.on("message", (channel, userstate, message, self) => {
+client.on("message", (self, message, channel, userstate) => {
   if (self) return;
   if (message.toLowerCase() === "!actualppsize") {
     client.say(
       channel,
       `@${userstate.username}, ${
-        messages.messages[Math.floor(Math.random() * messages.messages.length)]
+        responses.responses[
+          Math.floor(Math.random() * responses.responses.length)
+        ]
       }`
     );
   }
