@@ -14,7 +14,7 @@ const client = new tmi.Client({
 
 client.connect();
 
-client.on("message", (self, message, channel, userstate) => {
+client.on("message", (channel, userstate, message, self) => {
   if (self) return;
   if (message.toLowerCase() === "!actualppsize") {
     client.say(

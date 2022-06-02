@@ -9,7 +9,7 @@ const guestStreamer = [
   `RiceBalls`,
 ];
 
-exports.messages = [
+exports.responses = [
   `Evan Wahr has a small dong! He's rocking two inches, on a good day!!`,
   `Evan Wahr is HUNG! I'm talking big MASSIVE cock!`,
   `Evan Wahr hasn't had genitals since the accident! Quit asking!`,
